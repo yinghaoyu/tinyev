@@ -7,6 +7,7 @@
 
 #include <memory>
 #include <functional>
+#include <string_view>
 
 namespace ev
 {

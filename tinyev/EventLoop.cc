@@ -21,11 +21,6 @@ namespace
 
 __thread EventLoop* t_Eventloop = nullptr;
 
-pid_t gettid()
-{
-    return static_cast<pid_t>(::syscall(SYS_gettid));
-}
-
 class IgnoreSigPipe
 {
 public:
